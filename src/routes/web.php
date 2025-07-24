@@ -15,3 +15,8 @@ use App\Http\Controllers\ItemController;
 */
 //'/'にアクセスした時にindexを実行？
 Route::get('/', [ItemController::class, 'index']);
+
+//ミドルウェアの設定
+Route::middleware('auth')->group(function () {
+    // Route::get('/', [ItemController::class, 'index']);
+});
