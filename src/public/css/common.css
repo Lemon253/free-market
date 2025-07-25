@@ -3,9 +3,6 @@
 }
 
 .header__inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 0 auto;
     padding: 10px 5px 5px 15px;
     /* max-width: 1230px; */
@@ -46,7 +43,7 @@
     text-decoration: none;
 }
 
-.header-nav__link--sell {
+.header-nav__link--create {
     margin: 0px 10px;
     color: #fff;
     background-color: red;

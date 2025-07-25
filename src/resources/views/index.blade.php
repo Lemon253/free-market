@@ -24,4 +24,5 @@
         </div>
     </div>
     <!-- foreach終了 -->
+    @endsection
 </div>
